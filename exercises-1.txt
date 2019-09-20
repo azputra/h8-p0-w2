@@ -1,0 +1,60 @@
+No 1. Newton Second Law
+STORE "masaBenda" with 600
+STORE "percepatanBenda" with 2
+STORE "resultanGaya" without value
+
+"resultanGaya" equal to "masaBenda" times "percepatanBenda"
+DISPLAY "resultanGaya"
+
+No 2. Tahun Kabisat
+[ALGORITMA]
+1. masukan tahun
+2. jika tahun di bagi 4 sisa pembagiannya sama dengan 0 dan jika tahun di bagi 100 sisa pembagiannya tidak sama dengan 0
+3. cetak "ini tahun kabisat"
+4. jika tahun di bagi 4 sisa pembagiannya sama dengan 0 dan jika tahun di bagi 100 sisa pembagiannya sama dengan 0 dan jika tahun di bagi 400 dan sisa pembagiannya sama dengan 0
+5. cetak "ini tahun kabisat"
+6. jika tidak ada yang memenuhi kondisi di atas
+7. cetak "ini bukan tahun kabisat"
+
+[PSEUDOCODE]
+STORE "year" with any value
+IF "year" mod 4 equal to 0 and "year" mod 100 not equal to 0
+	DISPLAY "Ini Tahun Kabisat"
+ELSE IF "year" mod 4 equal to 0 and "year" mod 100 equal to 0 and "year" mod 400 equal to 0
+	DISPLAY "ini Tahun Kabisat"
+ELSE 
+	Display "Ini Bukan Tahun Kabisat"
+
+No 3. Laundry Day
+[ALGORITMA]
+1. masukan pakaian
+2. hitung pakaian satu persatu
+3. selama pakaian kurang dari 20 tambah/masukan pakaian satu persatu
+4. jika pakaian sudah mencapai 20 lakukan pencucian
+
+[PSEUDOCODE]
+STORE "laundry" with 0
+WHILE "laundry" less than equal to 20
+	add "laundry" by 1
+
+DISPLAY "cuci pakaian"
+
+No 4. Periksa Kuku
+[ALGORITMA]
+1. periksa kuku murid satu persatu sampai 40
+2. jika kuku murid panjang
+3. beri hukuman
+4. jika kuku murid pendek
+5. beri pujian
+
+[PSEUDOCODE]
+STORE "nomorMurid" with 0
+STORE "jumlahMurid" with 40
+STORE "panjangKuku" with "Kuku Panjang" or "Kuku Pendek"
+
+WHILE "nomorMurid" less than equal to 40
+	add "nomorMurid" by 1
+IF "panjangKuku" equal to "Kuku Panjang"
+	DISPLAY "Beri Hukuman"
+ELSE
+	DISPLAY "Beri Pujian"
