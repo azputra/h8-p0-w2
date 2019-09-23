@@ -3,7 +3,7 @@ var peran = 'asd';
 
 function gameProxytia(nama, peran) {
     if (nama === "") {
-        console.log("Nama Harus Di isi")
+        console.log(`Nama Harus Di isi`)
     } else if(nama !== "" && peran === ""){
         console.log(`Halo ${nama}, Pilih peranmu untuk memulai game!`)
     } else if (nama !== "" && peran === "Ksatria"){
